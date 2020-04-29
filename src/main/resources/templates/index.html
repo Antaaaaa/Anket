@@ -10,9 +10,9 @@
 <body>
 <div class="container p-1 mx-auto">
     <form action="/anket" method="POST">
-        <input type="text" class="form-control m-2" name="name" placeholder="Name"/>
-        <input type="text" class="form-control m-2" name="surname" placeholder="Surname"/>
-        <input type="text" class="form-control m-2"  name="phone" placeholder="Phone"/>
+        <input type="text" class="form-control m-2" name="name" placeholder="Name" required/>
+        <input type="text" class="form-control m-2" name="surname" placeholder="Surname" required/>
+        <input type="text" class="form-control m-2"  name="phone" placeholder="Phone" required/>
         <button type="submit" class="btn btn-primary float-right m-2">Підтвердити</button>
         <a href="/results" class="btn btn-primary float-right m-2">Всі результати</a>
     </form>
